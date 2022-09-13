@@ -1,2 +1,2 @@
-# lab_task_1
-Lab Task 1 for the Web Technologies course
+# SP20-BCS-109
+Lab Tasks for the Web Technologies course
