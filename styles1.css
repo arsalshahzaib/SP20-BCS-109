@@ -1,5 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
 }
 
 .heading {
@@ -9,4 +10,8 @@ body {
 
 h2 > u {
     color: dodgerblue;
+}
+
+.paragraph {
+    font-size: 125%;
 }
