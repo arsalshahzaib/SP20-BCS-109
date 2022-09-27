@@ -15,3 +15,7 @@ h2 > u {
 .paragraph {
     font-size: 125%;
 }
+
+#myPicture {
+    border: 0.2rem solid dodgerblue;
+}
