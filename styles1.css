@@ -19,3 +19,8 @@ h2 > u {
 #myPicture {
     border: 0.2rem solid dodgerblue;
 }
+
+.lang > li {
+    display: inline;
+    padding: 0.5rem;
+}
