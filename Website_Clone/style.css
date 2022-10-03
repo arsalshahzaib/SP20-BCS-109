@@ -28,11 +28,11 @@ body, html {
     border-left: 1px solid #495867;
 }
 
-.navbar .nav, .navbar .navbell, .navbar .navborder, .navbar .navburger, .navbar .navdown, .navbar .navenv, .navbar .navevents, .navbar .navfantasy, .navbar .navforums, .navbar .navgalleries, .navbar .navlive, .navbar .navmatches, .navbar .navnews, .navbar .navranking, .navbar .navresults, .navbar .navsearch, .navbar .navsignin, .navbar .navstats {
+.navbar .nav, .navbar .navbell, .navbar .navborder, .navbar .navburger, .navbar .navdown, .navbar .navenv, .navbar .navevents, .navbar .navfantasy, .navbar .navforums, .navbar .navgalleries, .navbar .navlive, .navbar .navmatches, .navbar .navnews, .navbar .navranking, .navbar .navresults, .navbar .navsignin, .navbar .navstats {
     flex: 1 0 auto;
 }
 
-.navbar .nav, .navbar .navburger, .navbar .navevents, .navbar .navfantasy, .navbar .navforums, .navbar .navgalleries, .navbar .navlive, .navbar .navmatches, .navbar .navnews, .navbar .navranking, .navbar .navresults, .navbar .navstats, .navbar .navSearchBox {
+.navbar .nav, .navbar .navburger, .navbar .navevents, .navbar .navfantasy, .navbar .navforums, .navbar .navgalleries, .navbar .navlive, .navbar .navmatches, .navbar .navnews, .navbar .navranking, .navbar .navresults, .navbar .navstats {
     height: 46px;
     line-height: 46px;
     vertical-align: middle;
@@ -55,6 +55,7 @@ body, html {
 
 .navbar {
     font-size: 14px;
+    position: fixed;
 }
 
 .navbar {
@@ -67,5 +68,16 @@ body, html {
     background-color: #2d3844;
 }
 
+.navbar a {
+    text-decoration: none;
+}
 
+.navbar a:hover {
+    text-decoration: underline;
+}
 
+.navsearch #search {
+    background-color: #2d3844;
+    color: #929a9e;
+    border: 1px solid rgba(73,88,103,.65);
+}
