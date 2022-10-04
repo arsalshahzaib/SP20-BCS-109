@@ -23,9 +23,9 @@
 function chkEmail() {
     var getEmail = $("#email");
 
-    if (getEmail.val == "") {
+    if (getEmail.val() == "") {
         $("#email").addClass("red");
     } else {
-        
+        $("#email").removeClass("red");
     }
 }
