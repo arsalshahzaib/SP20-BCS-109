@@ -89,3 +89,27 @@ body {
 #shop-merch > p > a:hover {
     color: red;
 }
+
+#sponsors {
+    background-color: #cccccc;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    border: solid 1px black;
+    color: white;
+    background-image: linear-gradient(to right, red , black);
+}
+
+#logitech-logo, #omen-logo, #secretlab-logo {
+    width: 7rem;
+    padding: 1rem;
+}
+
+#sponsors > h1 > span {
+    border: solid 4px white;
+}
+
