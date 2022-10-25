@@ -1,5 +1,6 @@
 body {
     font-family: Riformall,Arial,sans-serif;
+    background-color: darkblue;
 }
 
 #top-menu > li {
@@ -11,8 +12,15 @@ body {
     text-decoration: none;
     color: red;
     font-size: 1.5rem;
+    
 }
 
 #top-menu > li > a:hover {
     color: darkblue;
+}
+
+.nav-menu {
+    background-color: darkred;
+    height: 4rem;
+    border: solid 1px black;
 }
