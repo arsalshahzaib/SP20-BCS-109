@@ -25,7 +25,7 @@ body {
     border: solid 1px black;
 }
 
-.home-div > img {
+#home-div > img {
     width: 88rem;
     padding-top: 1rem;
 }
@@ -35,7 +35,7 @@ body {
     float: right;
 }
 
-.home-div {
+#home-div {
     background: url('home-bg.jpg') no-repeat;
     background-color: #cccccc;
     height: 500px;
@@ -48,4 +48,37 @@ body {
     border: solid 1px black;
     color: white;
 }
+
+#team-info {
+    background: url('team-bg.jpg') no-repeat;
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    border: solid 1px black;
+    color: white;
+}
+
+#shop-merch {
+    background: url('team_magnus_setup-astralis-min.webp') no-repeat;
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    border: solid 1px black;
+    color: white;
+}
+
+#shop-merch > p {
+    font-size: 7rem;
+}
+
 
