@@ -1,0 +1,17 @@
+body {
+    font-family: Riformall,Arial,sans-serif;
+}
+
+#top-menu > li {
+    display: inline;
+    padding: 1rem;
+}
+
+#top-menu > li > a {
+    text-decoration: none;
+    color: red;
+}
+
+#top-menu > li > a:hover {
+    color: darkblue;
+}
