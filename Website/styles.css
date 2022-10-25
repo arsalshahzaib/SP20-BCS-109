@@ -78,11 +78,10 @@ body {
 }
 
 #shop-merch > p {
-    font-size: 7rem;
+    font-size: 7.3rem;
 }
 
 #shop-merch > p > a {
-    /* text-decoration: none; */
     color: darkred;
 }
 
@@ -104,7 +103,7 @@ body {
     background-image: linear-gradient(to right, red , black);
 }
 
-#logitech-logo, #omen-logo, #secretlab-logo {
+#logitech-logo, #omen-logo, #secretlab-logo, #aimlab-logo {
     width: 7rem;
     padding: 1rem;
 }
