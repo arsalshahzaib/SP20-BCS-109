@@ -81,4 +81,11 @@ body {
     font-size: 7rem;
 }
 
+#shop-merch > p > a {
+    /* text-decoration: none; */
+    color: darkred;
+}
 
+#shop-merch > p > a:hover {
+    color: red;
+}
