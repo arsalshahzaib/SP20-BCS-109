@@ -16,11 +16,36 @@ body {
 }
 
 #top-menu > li > a:hover {
-    color: red;
+    color: skyblue;
 }
 
 .nav-menu {
-    background-color: darkred;
+    background-image: linear-gradient(to right, red , black);
     height: 4rem;
     border: solid 1px black;
 }
+
+.home-div > img {
+    width: 88rem;
+    padding-top: 1rem;
+}
+
+.nav-menu > ul > img {
+    width: 4rem;
+    float: right;
+}
+
+.home-div {
+    background: url('home-bg.jpg') no-repeat;
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    padding: 8rem;
+    margin-top: 0.5rem;
+    border: solid 1px black;
+    color: white;
+}
+
