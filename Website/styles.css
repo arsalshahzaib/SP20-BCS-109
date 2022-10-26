@@ -11,8 +11,7 @@ body {
 #top-menu > li > a {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem; 
 }
 
 #top-menu > li > a:hover {
@@ -116,3 +115,22 @@ html {
     scroll-behavior: smooth;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: darkred;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: red;
+}
