@@ -112,3 +112,7 @@ body {
     border: solid 4px white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
