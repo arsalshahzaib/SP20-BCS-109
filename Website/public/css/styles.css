@@ -35,7 +35,7 @@ body {
 }
 
 #home-div {
-    background: url('icons-and-bgs/home-bg.jpg') no-repeat;
+    background: url('/home-bg.jpg') no-repeat;
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -49,7 +49,7 @@ body {
 }
 
 #team-info {
-    background: url('icons-and-bgs/team-bg.jpg') no-repeat;
+    background: url('/team-bg.jpg') no-repeat;
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -63,7 +63,7 @@ body {
 }
 
 #shop-merch {
-    background: url('icons-and-bgs/team_magnus_setup-astralis-min.webp') no-repeat;
+    background: url('/team_magnus_setup-astralis-min.webp') no-repeat;
     background-color: #cccccc;
     height: 700px;
     background-position: center;

@@ -11,7 +11,10 @@ app.get("/contact-us", (req, res) => {
 app.get("/", (req, res) => {
     res.render("index");
 });
-app.listen(2000);
+app.listen(2000, () => {
+    console.log("Server listening on port 2000...")
+    
+});
 
 //execute this file with following command
 // node server
