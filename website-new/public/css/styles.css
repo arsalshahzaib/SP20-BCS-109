@@ -186,5 +186,16 @@ html {
 }
 
 .footer {
+    background-image: linear-gradient(to right, blue , black);
+    margin: 10px;
+    padding: 50px;
+}
+
+.footer a {
     color: white;
+    text-decoration: none;
+}
+
+.footer > ul > li {
+    text-align: right;
 }
