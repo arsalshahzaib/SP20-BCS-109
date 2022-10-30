@@ -186,7 +186,7 @@ html {
 }
 
 .footer {
-    background-image: linear-gradient(to right, blue , black);
+    background-image: linear-gradient(to right, #111112 , darkblue);
     margin: 10px;
     padding: 50px;
 }
@@ -194,8 +194,23 @@ html {
 .footer a {
     color: white;
     text-decoration: none;
+    font-size: 1.4rem;
 }
 
-.footer > ul > li {
-    text-align: right;
+.footer > ul {
+    display: inline;
+}
+
+.footer a:hover {
+    color: grey;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: white;
+}
+
+::selection {
+    color: red;
+    background: white;
 }
