@@ -214,3 +214,12 @@ html {
     color: red;
     background: white;
 }
+
+#back-to-top {
+    text-align: right;
+}
+
+#back-to-top  span {
+    border: 2px solid red;
+    padding: 8px;
+}
