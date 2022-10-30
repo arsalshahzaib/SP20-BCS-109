@@ -21,7 +21,7 @@ body {
 }
 
 #home-bg {
-    margin: 20px;
+    margin: 10px;
     padding: 50px;
     background-image: linear-gradient(to right, red , black);
 }
@@ -92,7 +92,7 @@ ul{
 .our-webcoderskull{
     background: url("/website-new/public/team-bg.jpg") no-repeat center top / cover;
 }
-.our-webcoderskull .cnt-block{ 
+.our-webcoderskull .cnt-block { 
     float:left; 
     width:100%; 
     background:#fff; 
@@ -108,61 +108,80 @@ ul{
     display:inline-block;
     margin-bottom: 15px;
 }
-.our-webcoderskull .cnt-block img{ 
+.our-webcoderskull .cnt-block img { 
     width:148px; 
     height:148px; 
     border-radius:100%; 
 }
-.our-webcoderskull .cnt-block h3{ 
+.our-webcoderskull .cnt-block h3 { 
     color:#2a2a2a; 
     font-size:20px; 
     font-weight:500; 
     padding:6px 0;
     text-transform:uppercase;
 }
-.our-webcoderskull .cnt-block h3 a{
+.our-webcoderskull .cnt-block h3 a {
     text-decoration:none;
 	color:#2a2a2a;
 }
-.our-webcoderskull .cnt-block h3 a:hover{
+.our-webcoderskull .cnt-block h3 a:hover {
 	color:#337ab7;
 }
-.our-webcoderskull .cnt-block p{ 
+.our-webcoderskull .cnt-block p { 
     color:#2a2a2a; 
     font-size:13px; 
     line-height:20px; 
     font-weight:400;
 }
-.our-webcoderskull .cnt-block .follow-us{
+.our-webcoderskull .cnt-block .follow-us {
 	margin:20px 0 0;
 }
-.our-webcoderskull .cnt-block .follow-us li{ 
+.our-webcoderskull .cnt-block .follow-us li { 
     display:inline-block; 
 	width:auto; 
 	margin:0 5px;
 }
-.our-webcoderskull .cnt-block .follow-us li .fa{ 
+.our-webcoderskull .cnt-block .follow-us li .fa { 
     font-size:24px; 
     color:#767676;
 }
-.our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
+.our-webcoderskull .cnt-block .follow-us li .fa:hover { 
     color:#025a8e;
 }
 
-.text-wrap a{
+.shop-merch a {
     text-decoration: none;
     color: grey;
 }
 
-.text-wrap img {
+.shop-merch a:hover {
+    color: white;
+}
+
+.shop-merch img {
     width: 10%;
     height: auto;
 }
 
-.text-wrap > p {
+.shop-merch > p {
     padding: 10px;
 }
 
-.text-wrap {
+.shop-merch {
     margin: 10px;
 }
+
+#logitech-logo, #omen-logo, #secretlab-logo, #aimlab-logo, #garmin-logo {
+    width: 7rem;
+    padding: 1rem;
+}
+
+.sponsors {
+    background-image: linear-gradient(to right, red , black);
+    margin: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
