@@ -1,5 +1,5 @@
 console.log("Hello, friend.");
 
-// button () {
-
-// }
+function buttonclicked() {
+    console.log("Button Clicked");
+}
