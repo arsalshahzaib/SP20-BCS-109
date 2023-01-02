@@ -1,6 +1,6 @@
-const express = require("express");
+const express = require("express"); // npm install express
 // if you dont have node_modules folder then run below command
-// npm install
+// npm install node
 
 const app = express();
 app.use(express.static("public"));
@@ -22,3 +22,4 @@ app.listen(2000, () => {
 // npm install nodemon -g
 // then run the file with nodemon
 // nodemon server
+// npm install ejs
