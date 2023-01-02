@@ -13,7 +13,6 @@ app.get("/", (req, res) => {
 });
 app.listen(2000, () => {
     console.log("Server listening on port 2000...")
-    
 });
 
 //execute this file with following command
