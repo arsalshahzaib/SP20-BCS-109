@@ -18,3 +18,11 @@ console.log(sum(x, y));
 
 var sum_function    =   sum;
 console.log(sum_function);
+
+function update() {
+    console.log("Updating the results...");
+    var myInput = document.getElementById("text");
+    console.log(myInput.value);
+    var myOutput = document.getElementById("output");
+    myOutput.innerHTML = myInput.value;
+}
