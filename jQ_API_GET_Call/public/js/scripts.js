@@ -10,8 +10,10 @@ function loadGames() {
             // console.log(response);
             var todosL = $("#todo");
             todosL.empty();
-            for (let index = 0; index < response.length; index++) {
-                todosL.append("<div><h3>Title " + index + ". " + response[index].title + "</h3></div>");
+            var count = 1;
+            for (let index = 0; index <= response.length; index++) {
+                todosL.append("<div><h3>Task " + count + ". " + response[index].title + "</h3><p>Completion = " + response[index].completed + "</p></div>");
+                count++;
             }
         }
     });
