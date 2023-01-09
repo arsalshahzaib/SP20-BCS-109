@@ -21,5 +21,5 @@ function handleButtonClick() {
 }
 
 function removeTODO() {
-    $(this).remove();
+    $(this).fadeOut();
 }
