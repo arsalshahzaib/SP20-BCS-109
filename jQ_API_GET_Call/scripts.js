@@ -11,7 +11,7 @@ function loadGames() {
             var todosL = $("#todo");
             todosL.empty();
             for (let index = 0; index < response.length; index++) {
-                todosL.append("<div><h3>-> " + response[index].title + "</h3></div>");
+                todosL.append("<div><h3>Title " + index + ". " + response[index].title + "</h3></div>");
             }
         }
     });
