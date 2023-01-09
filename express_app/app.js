@@ -1,6 +1,6 @@
-const express=require('express');
-var app=express();
-const https=require('https');
+const express = require('express');
+var app = express();
+const https = require('https');
 var bodyParser=require("body-parser");
 
 app.set('view engine', 'ejs');
@@ -11,17 +11,17 @@ var workitems=[];
 var listTitle;
 app.get("/", function(req, res)
 {
-  var today=new Date();
+  var today = new Date();
   var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  var day=today.toLocaleString("en-us", options);
-  res.render("list", {listTitle:"Normal", newListItem: items });
+  var day = today.toLocaleString("en-us", options);
+  res.render("list", {listTitle:"TODOs", newListItem: items });
 
 });
 
 app.post("/", function(req, res)
 {
   item=req.body.newItem;
-  if(req.body.list==="Work")
+  if(req.body.list === "Work")
   {
     workitems.push(item);
     res.redirect("/work");
