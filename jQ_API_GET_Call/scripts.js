@@ -4,7 +4,7 @@ $(function() {
 
 function loadGames() {
     $.ajax({
-        url: "type your URL here",
+        url: "https://jsonplaceholder.typicode.com/todos",
         method: "GET",
         success: function(response) {
             console.log(response);
